@@ -1,0 +1,36 @@
+:root {
+  // variables
+  --base-font-size: 20px;
+  --desktop-width: 968px;
+  --clr-primary: #f25f5c;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--base-font-size);
+  max-width: var(--desktop-width);
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  color: var(--clr-primary);
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 967px) {
+  :root {
+    // variables
+    --base-font-size: 16px;
+    --desktop-width: 968px;
+    --clr-primary: #f25f5c;
+  }
+}
